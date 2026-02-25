@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  
+}
+
+.store {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.card img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 8px 0 5px;
+  font-size: 25px;
+}
+
+#card-p {
+  margin: 4px 0;
+  font-weight: bold;
+}
+
+.buy-section {
+  margin-top: 10px;
+}
+
+.buy-section select {
+  padding: 10px;
+  margin-right: 8px;
+  width: 50%;
+}
+
+.buy-section button {
+  padding: 5px 10px;
+  background-color: #6b6b6b;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  color: #fff;
+  cursor: pointer;
+}
